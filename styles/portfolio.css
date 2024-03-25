@@ -5,7 +5,7 @@
   --secondary-color: #ff5757;
   --tertiary-color:  #ff5757;
   --highlight-color: #ff8585;
-  --main-heading-font-family:  "Playfair Display SC", serif;
+  --main-heading-font-family:  "Playfair Display", serif;
   --font-family: font-family: "Poppins", sans-serif;
 }
 
@@ -19,17 +19,38 @@ h1 {
   font-size: 70px;
   line-height: 1.5;
 }
+h2, h3, p {
+  font-family: var(--font-family);
+  line-height: 30px;
+}
 h2 {
-  font-size: 64px;
+ font-size: 60px;
+}
+h3{
+  font-family: var(--font-family);
+  font-size: 30px;
 }
 p {
   font-size: 16px;
-  line-height: 30px;
+}
+.navbar-collapse{
+  margin-left: 1150px;
+
 }
 .intro {
-  color: var(--branding-color);
-  background-color: var(--default-background-color);
-  padding: 240px 0;
+  color: white;
+  background-color: var( --highlight-color);
+  padding: 170px 0;
+  text-align: center;
+}
+.btn{
+  color: white;
+  text-align: center;
+  background:  var(--secondary-color) ;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
 }
 .project-body{
   padding: 160px 20px;
@@ -37,6 +58,12 @@ p {
 }
 .contact-body{
   text-align: center;
+}
+.advanced-skills {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 70px;
+ 
 }
 .fa-html5{
   color: var(--tertiary-color);
