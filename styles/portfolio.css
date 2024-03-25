@@ -31,6 +31,13 @@ p {
   background-color: var(--default-background-color);
   padding: 240px 0;
 }
+.project-body{
+  padding: 160px 20px;
+  text-align: center;
+}
+.contact-body{
+  text-align: center;
+}
 .fa-html5{
   color: var(--tertiary-color);
 }
