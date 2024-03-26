@@ -2,17 +2,16 @@
 :root{
   --default-background-color:  #282a36;
   --branding-color: #ffebeb ;
-  --secondary-color: #ff5757;
+  --secondary-color: #ff007b;
   --tertiary-color:  #ff5757;
   --highlight-color: #ff8585;
   --main-heading-font-family:  "Playfair Display", serif;
   --font-family: font-family: "Poppins", sans-serif;
 }
-
-.project-body{
-  margin: 60px 60px 0 60px;
+body{
   background-color: var(--branding-color);
 }
+
 h1 {
   font-family: var(--main-heading-font-family);
   font-weight: bold;
@@ -33,8 +32,17 @@ h3{
 p {
   font-size: 16px;
 }
+.project-title{
+   font-family: var(--font-family);
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.navbar{
+  position: fixed;
+}
 .navbar-collapse{
   margin-left: 1150px;
+  padding-right: 40px;
 
 }
 .intro {
@@ -51,25 +59,45 @@ p {
   padding: 10px 20px;
   margin: 10px;
   border-radius: 10px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+  
 }
-.project-body{
-  padding: 160px 20px;
-  text-align: center;
+.project-btn{
+  font-size: 16px;
 }
+.skills{
+  margin: 100px 0 100px 0;
+ }
+
 .contact-body{
   text-align: center;
 }
-.advanced-skills {
+.project-heading{
+    padding: 170px 0;
+.fa-magnifying-glass{
+  width: 120px;
+}
+}
+.advanced-skills  {
   display: flex;
   justify-content: space-between;
-  margin: 100px 70px;
+  margin: 30px 0;
+  font-weight: 400;
+}
+.basic-skills{
+   font-weight: 400;
+   margin: 30px 0;
+}
+
+.skills-heading{
+  margin-top: 50px;
  
 }
 .fa-html5{
   color: var(--tertiary-color);
 }
 .certificate{
-  margin-top: 100px;
+  margin: 100px;
 }
 
 .weather-app{
@@ -77,8 +105,40 @@ p {
   margin: 0 auto;
 }
 .project-description{
-  padding: 20px 60px;
+  margin-bottom: 20px;
 }
+.email-link{
+  text-decoration: none;
+  color: black;
+}
+.email-link:hover{
+  color: var( --highlight-color);
+
+
+}
+.row-bottom{
+  margin-bottom: 100px;
+}
+footer{
+  margin-top: 60px;
+  background-color: var(--highlight-color);
+  padding: 10px 0 0 0 ;
+}
+footer .social-link a{
+  margin: 15px;
+  color: var(--tertiary-color);
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+footer .social-link a:hover{
+  background-color: black;
+}
+
 @media (max-width:900px){
   h1{
   font-size: 60px;
