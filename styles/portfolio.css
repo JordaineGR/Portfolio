@@ -100,9 +100,7 @@ ul {
   margin-bottom: 20px;
   margin-left: 100px;
 }
-.contact-body {
-  text-align: center;
-}
+
 .row-bottom {
   margin-bottom: 100px;
 }
@@ -174,16 +172,12 @@ footer .social-link a:hover {
   .intro {
     padding: 120px 20px;
   }
-  .contact-description {
-    margin: -170px 0 0 40px;
-  }
-  .contact-content {
-    padding: 80px 0 80px 90px;
-  }
+
   .project-heading {
     padding-bottom: 70px;
   }
   .project-description {
+    font-size: 12px;
     margin: 0 auto;
   }
   .project-title {
@@ -207,5 +201,16 @@ footer .social-link a:hover {
   }
   .skills {
     margin: 0 30px 0 30px;
+  }
+  .contact-description {
+    margin-left: -50px;
+    font-size: 13px;
+  }
+  .contact-type {
+    margin-left: -175px;
+  }
+  .contact-content {
+    padding: 40px 100px 40px 150px;
+    margin-bottom: 110px;
   }
 }
